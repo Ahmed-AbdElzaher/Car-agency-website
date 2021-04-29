@@ -192,11 +192,12 @@ h3 {
 }
 
 .LastAwards {
-    width: 137px;
+    width: 147px;
     margin-right: 15px;
     margin-left: 5px;
     font-family: "Land Rover", Helvetica, Arial, "Microsoft JhengHei", sans-serif;
     font-size: 17px;
+    background-color: snow;
 
 }
 
