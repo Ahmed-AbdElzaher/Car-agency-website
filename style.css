@@ -1,0 +1,394 @@
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: snow;
+
+
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.03);
+    width: 100%;
+    height: 80px;
+    /* margin: auto; */
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.nav {
+    /* text-align: right; */
+    position: absolute;
+    right: 0;
+}
+
+.navbar img {
+    height: 95%;
+    left: 5px;
+    top: 3px;
+    position: absolute;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    padding: 28px;
+}
+
+.cover {
+    width: 100%;
+    height: 500px;
+    /* background-color: blue; */
+    margin: 5px auto;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.cover img {
+    width: 100%;
+
+}
+
+.cover h2 {
+    position: absolute;
+    right: 40px;
+    bottom: 58px;
+    color: rgba(255, 255, 255, 0.9);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
+
+.cover button {
+    position: absolute;
+    right: 40px;
+    bottom: 30px;
+    border: none;
+    width: 195px;
+    height: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgba(240, 255, 240, 0.5);
+    color: floralwhite;
+    font-weight: bold;
+
+}
+
+.three {
+    width: 100%;
+    height: 500px;
+    /* background-color: brown; */
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.three div {
+    width: 32%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    /* background-color: chocolate; */
+    /* float: right; */
+
+}
+
+.three .rightimg {
+    width: 47%;
+    height: 24%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    /* margin-left: 10px; */
+    /* float: right; */
+
+}
+
+.three .leftimg {
+    width: 47%;
+    height: 24%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    /* float: left;
+    margin: 0px auto; */
+}
+
+.three h3 {
+    position: absolute;
+    top: 28%;
+    left: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+
+
+}
+
+.three .icon {
+    position: absolute;
+    top: 28%;
+    width: 50px;
+    height: 50px;
+}
+
+.three p {
+    position: absolute;
+    top: 40%;
+    left: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.three button {
+    position: absolute;
+    top: 78%;
+    left: 0px;
+    border: none;
+    width: 100px;
+    height: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hbar {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+h3 {
+    margin-right: 15px;
+    margin-left: 5px;
+    font-family: "Land Rover", Helvetica, Arial, "Microsoft JhengHei", sans-serif;
+}
+
+.h3 {
+    /* background-color: white; */
+    width: 190px;
+    height: 100%;
+    color: white;
+
+}
+
+.LastAwards {
+    width: 127px;
+    margin-right: 15px;
+    margin-left: 5px;
+    font-family: "Land Rover", Helvetica, Arial, "Microsoft JhengHei", sans-serif;
+}
+
+.bar {
+
+    width: 100%;
+    height: 80%;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+
+
+}
+
+.bardark {
+
+    width: 100%;
+    height: 80%;
+    background-color: rgba(255, 255, 255, 0.637);
+    padding-left: 1px;
+    color: rgba(255, 255, 255, 0);
+    user-select: none;
+
+}
+
+.dark {
+    background-color: #4a4f54;
+    padding: 30px;
+}
+
+.four {
+    width: 100%;
+    height: 700px;
+    /* background-color: brown; */
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.four div {
+    width: 31%;
+    height: 48%;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    /* background-color: violet; */
+}
+
+.four img {
+    width: 100%;
+    height: auto;
+
+
+}
+
+.four h5::before {
+    content: "> ";
+    color: rgba(255, 255, 255, 0.7);
+
+}
+
+.four h5 {
+    font-family: "Land Rover", Helvetica, Arial, "Microsoft JhengHei", sans-serif;
+    line-height: 1.2;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin: 10px;
+    position: absolute;
+    left: 0;
+    color: white;
+    padding: 5px;
+
+}
+
+.four button {
+    position: absolute;
+    left: 34px;
+    top: 78%;
+    text-align: center;
+    border: none;
+    width: 80px;
+    height: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    top: 290px;
+
+}
+
+
+.five {
+    width: 100%;
+    height: 150px;
+    /* background-color: brown; */
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.five div {
+    width: 16%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    /* background-color: violet; */
+}
+
+.five img {
+    width: 85%;
+    height: 50%;
+
+
+}
+
+.five p {
+    width: 90%;/ height: auto;
+    text-align: left;
+    padding: 7px;
+    font-size: 12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+.lowbar {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    background-color: #4a4f54;
+
+}
+
+.lowbar div {
+    width: 25%;
+    height: auto;
+    /* background-color: orchid; */
+    padding: 35px;
+    position: relative;
+}
+
+.lowbar ul {
+    list-style: none;
+}
+
+.lowbar a {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 4px;
+    display: block;
+    font-size: x-small;
+    position: relative;
+}
+
+.lowbar img {
+    width: 25px;
+    position: absolute;
+    top: -15%;
+    left: -50%;
+}
+
+.social ul {
+    left: 10px;
+    position: absolute;
+}
+
+.social a {
+    margin-bottom: 17px;
+}
+.five p:hover {
+    cursor: pointer;
+    background-color: rgba(0, 128, 128, 0.8);
+    color: white;
+}
+
+h5:hover {
+    cursor: pointer;
+    background-color: rgba(0, 128, 128, 0.8);
+    color: white;
+}
+img:hover {
+    cursor: pointer;
+
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgba(0, 128, 128, 0.8);
+    color: white;
+}
+
+a:hover {
+    background-color: rgba(0, 128, 128, 0.8);
+    color: white;
+}
